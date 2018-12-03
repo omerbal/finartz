@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <test name="n11_add_fav">
+        <parameter name="homePageHeader" value="Alışverişin Uğurlu Adresi"></parameter>
+        <parameter name="signInButtonText" value="Üye Girişi"></parameter>
+        <parameter name="email" value="omrbl3@gmail.com"></parameter>
+        <parameter name="password" value="002552ob"></parameter>
+        <parameter name="accountNameParam" value="ömer bal"></parameter>
+        <parameter name="searchText" value="Samsung"></parameter>
+        <parameter name="myAccount" value="Hesabım"></parameter>
+        <parameter name="wishList" value="Favorilerim"></parameter>
+        <classes>
+            <class
+                    name="Cases.AddFavorite">
+            </class>
+        </classes>
+    </test>
+</suite>
+
